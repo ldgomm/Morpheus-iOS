@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1A6C132968C9C9000E4CDC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BEA2968C9C9000E4CDC /* Constants.swift */; };
+		0E1A6C142968C9C9000E4CDC /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BEE2968C9C9000E4CDC /* AuthenticationViewModel.swift */; };
+		0E1A6C152968C9C9000E4CDC /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BF32968C9C9000E4CDC /* Offer.swift */; };
+		0E1A6C162968C9C9000E4CDC /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BF42968C9C9000E4CDC /* Experience.swift */; };
+		0E1A6C172968C9C9000E4CDC /* Benefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BF52968C9C9000E4CDC /* Benefit.swift */; };
+		0E1A6C182968C9C9000E4CDC /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BF62968C9C9000E4CDC /* Preparation.swift */; };
+		0E1A6C192968C9C9000E4CDC /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BF72968C9C9000E4CDC /* Period.swift */; };
+		0E1A6C1A2968C9C9000E4CDC /* WageRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BF82968C9C9000E4CDC /* WageRange.swift */; };
+		0E1A6C1B2968C9C9000E4CDC /* Certification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BF92968C9C9000E4CDC /* Certification.swift */; };
+		0E1A6C1C2968C9C9000E4CDC /* Knowledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BFA2968C9C9000E4CDC /* Knowledge.swift */; };
+		0E1A6C1D2968C9C9000E4CDC /* OfferApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BFB2968C9C9000E4CDC /* OfferApiResponse.swift */; };
+		0E1A6C1E2968C9C9000E4CDC /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BFC2968C9C9000E4CDC /* Detail.swift */; };
+		0E1A6C1F2968C9C9000E4CDC /* OfferApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BFD2968C9C9000E4CDC /* OfferApiRequest.swift */; };
+		0E1A6C202968C9C9000E4CDC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BFE2968C9C9000E4CDC /* Activity.swift */; };
+		0E1A6C212968C9C9000E4CDC /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6BFF2968C9C9000E4CDC /* Education.swift */; };
+		0E1A6C222968C9C9000E4CDC /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C002968C9C9000E4CDC /* Job.swift */; };
+		0E1A6C232968C9C9000E4CDC /* AuthenticationApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C022968C9C9000E4CDC /* AuthenticationApiResponse.swift */; };
+		0E1A6C242968C9C9000E4CDC /* AuthenticationApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C032968C9C9000E4CDC /* AuthenticationApiRequest.swift */; };
+		0E1A6C252968C9C9000E4CDC /* UserSystemStatusInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C052968C9C9000E4CDC /* UserSystemStatusInformation.swift */; };
+		0E1A6C262968C9C9000E4CDC /* Partner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C062968C9C9000E4CDC /* Partner.swift */; };
+		0E1A6C272968C9C9000E4CDC /* UserMainInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C072968C9C9000E4CDC /* UserMainInformation.swift */; };
+		0E1A6C282968C9C9000E4CDC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C082968C9C9000E4CDC /* Client.swift */; };
+		0E1A6C292968C9C9000E4CDC /* UserProfessionalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C092968C9C9000E4CDC /* UserProfessionalInformation.swift */; };
+		0E1A6C2A2968C9C9000E4CDC /* AuthenticationServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C0B2968C9C9000E4CDC /* AuthenticationServiceable.swift */; };
+		0E1A6C2B2968C9C9000E4CDC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C0C2968C9C9000E4CDC /* AuthenticationService.swift */; };
+		0E1A6C2C2968C9C9000E4CDC /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C0F2968C9C9000E4CDC /* AuthenticationView.swift */; };
+		0E1A6C2D2968C9C9000E4CDC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C112968C9C9000E4CDC /* ProfileView.swift */; };
 		0E4D07FC29637F42004AA4B2 /* MorpheusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D07FB29637F42004AA4B2 /* MorpheusApp.swift */; };
 		0E4D07FE29637F42004AA4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D07FD29637F42004AA4B2 /* ContentView.swift */; };
 		0E4D080029637F43004AA4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4D07FF29637F43004AA4B2 /* Assets.xcassets */; };
@@ -14,6 +41,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E1A6BEA2968C9C9000E4CDC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0E1A6BEE2968C9C9000E4CDC /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		0E1A6BF32968C9C9000E4CDC /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		0E1A6BF42968C9C9000E4CDC /* Experience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		0E1A6BF52968C9C9000E4CDC /* Benefit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Benefit.swift; sourceTree = "<group>"; };
+		0E1A6BF62968C9C9000E4CDC /* Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preparation.swift; sourceTree = "<group>"; };
+		0E1A6BF72968C9C9000E4CDC /* Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		0E1A6BF82968C9C9000E4CDC /* WageRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WageRange.swift; sourceTree = "<group>"; };
+		0E1A6BF92968C9C9000E4CDC /* Certification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Certification.swift; sourceTree = "<group>"; };
+		0E1A6BFA2968C9C9000E4CDC /* Knowledge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knowledge.swift; sourceTree = "<group>"; };
+		0E1A6BFB2968C9C9000E4CDC /* OfferApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferApiResponse.swift; sourceTree = "<group>"; };
+		0E1A6BFC2968C9C9000E4CDC /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		0E1A6BFD2968C9C9000E4CDC /* OfferApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferApiRequest.swift; sourceTree = "<group>"; };
+		0E1A6BFE2968C9C9000E4CDC /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		0E1A6BFF2968C9C9000E4CDC /* Education.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		0E1A6C002968C9C9000E4CDC /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		0E1A6C022968C9C9000E4CDC /* AuthenticationApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationApiResponse.swift; sourceTree = "<group>"; };
+		0E1A6C032968C9C9000E4CDC /* AuthenticationApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationApiRequest.swift; sourceTree = "<group>"; };
+		0E1A6C052968C9C9000E4CDC /* UserSystemStatusInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSystemStatusInformation.swift; sourceTree = "<group>"; };
+		0E1A6C062968C9C9000E4CDC /* Partner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
+		0E1A6C072968C9C9000E4CDC /* UserMainInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMainInformation.swift; sourceTree = "<group>"; };
+		0E1A6C082968C9C9000E4CDC /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		0E1A6C092968C9C9000E4CDC /* UserProfessionalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfessionalInformation.swift; sourceTree = "<group>"; };
+		0E1A6C0B2968C9C9000E4CDC /* AuthenticationServiceable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServiceable.swift; sourceTree = "<group>"; };
+		0E1A6C0C2968C9C9000E4CDC /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		0E1A6C0F2968C9C9000E4CDC /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		0E1A6C112968C9C9000E4CDC /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0E4D07F829637F42004AA4B2 /* Morpheus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morpheus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4D07FB29637F42004AA4B2 /* MorpheusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorpheusApp.swift; sourceTree = "<group>"; };
 		0E4D07FD29637F42004AA4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +86,168 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1A6BE72968C9B3000E4CDC /* app */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BEB2968C9C9000E4CDC /* main */,
+				0E1A6BE82968C9C9000E4CDC /* util */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		0E1A6BE82968C9C9000E4CDC /* util */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BE92968C9C9000E4CDC /* constant */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		0E1A6BE92968C9C9000E4CDC /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BEA2968C9C9000E4CDC /* Constants.swift */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		0E1A6BEB2968C9C9000E4CDC /* main */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BEC2968C9C9000E4CDC /* viewmodel */,
+				0E1A6BEF2968C9C9000E4CDC /* model */,
+				0E1A6C0D2968C9C9000E4CDC /* view */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		0E1A6BEC2968C9C9000E4CDC /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BED2968C9C9000E4CDC /* auth */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		0E1A6BED2968C9C9000E4CDC /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BEE2968C9C9000E4CDC /* AuthenticationViewModel.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		0E1A6BEF2968C9C9000E4CDC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BF02968C9C9000E4CDC /* remote */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0E1A6BF02968C9C9000E4CDC /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BF12968C9C9000E4CDC /* entity */,
+				0E1A6C0A2968C9C9000E4CDC /* service */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		0E1A6BF12968C9C9000E4CDC /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BF22968C9C9000E4CDC /* offer */,
+				0E1A6C012968C9C9000E4CDC /* auth */,
+				0E1A6C042968C9C9000E4CDC /* user */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		0E1A6BF22968C9C9000E4CDC /* offer */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6BF32968C9C9000E4CDC /* Offer.swift */,
+				0E1A6BF42968C9C9000E4CDC /* Experience.swift */,
+				0E1A6BF52968C9C9000E4CDC /* Benefit.swift */,
+				0E1A6BF62968C9C9000E4CDC /* Preparation.swift */,
+				0E1A6BF72968C9C9000E4CDC /* Period.swift */,
+				0E1A6BF82968C9C9000E4CDC /* WageRange.swift */,
+				0E1A6BF92968C9C9000E4CDC /* Certification.swift */,
+				0E1A6BFA2968C9C9000E4CDC /* Knowledge.swift */,
+				0E1A6BFB2968C9C9000E4CDC /* OfferApiResponse.swift */,
+				0E1A6BFC2968C9C9000E4CDC /* Detail.swift */,
+				0E1A6BFD2968C9C9000E4CDC /* OfferApiRequest.swift */,
+				0E1A6BFE2968C9C9000E4CDC /* Activity.swift */,
+				0E1A6BFF2968C9C9000E4CDC /* Education.swift */,
+				0E1A6C002968C9C9000E4CDC /* Job.swift */,
+			);
+			path = offer;
+			sourceTree = "<group>";
+		};
+		0E1A6C012968C9C9000E4CDC /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6C022968C9C9000E4CDC /* AuthenticationApiResponse.swift */,
+				0E1A6C032968C9C9000E4CDC /* AuthenticationApiRequest.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		0E1A6C042968C9C9000E4CDC /* user */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6C052968C9C9000E4CDC /* UserSystemStatusInformation.swift */,
+				0E1A6C062968C9C9000E4CDC /* Partner.swift */,
+				0E1A6C072968C9C9000E4CDC /* UserMainInformation.swift */,
+				0E1A6C082968C9C9000E4CDC /* Client.swift */,
+				0E1A6C092968C9C9000E4CDC /* UserProfessionalInformation.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		0E1A6C0A2968C9C9000E4CDC /* service */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6C0B2968C9C9000E4CDC /* AuthenticationServiceable.swift */,
+				0E1A6C0C2968C9C9000E4CDC /* AuthenticationService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		0E1A6C0D2968C9C9000E4CDC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6C0E2968C9C9000E4CDC /* auth */,
+				0E1A6C102968C9C9000E4CDC /* profile */,
+				0E1A6C122968C9C9000E4CDC /* main */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0E1A6C0E2968C9C9000E4CDC /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6C0F2968C9C9000E4CDC /* AuthenticationView.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		0E1A6C102968C9C9000E4CDC /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6C112968C9C9000E4CDC /* ProfileView.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		0E1A6C122968C9C9000E4CDC /* main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
 		0E4D07EF29637F41004AA4B2 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +269,7 @@
 			children = (
 				0E4D07FB29637F42004AA4B2 /* MorpheusApp.swift */,
 				0E4D07FD29637F42004AA4B2 /* ContentView.swift */,
+				0E1A6BE72968C9B3000E4CDC /* app */,
 				0E4D07FF29637F43004AA4B2 /* Assets.xcassets */,
 				0E4D080129637F43004AA4B2 /* Preview Content */,
 			);
@@ -137,8 +354,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1A6C242968C9C9000E4CDC /* AuthenticationApiRequest.swift in Sources */,
+				0E1A6C172968C9C9000E4CDC /* Benefit.swift in Sources */,
+				0E1A6C292968C9C9000E4CDC /* UserProfessionalInformation.swift in Sources */,
+				0E1A6C182968C9C9000E4CDC /* Preparation.swift in Sources */,
+				0E1A6C272968C9C9000E4CDC /* UserMainInformation.swift in Sources */,
+				0E1A6C142968C9C9000E4CDC /* AuthenticationViewModel.swift in Sources */,
+				0E1A6C1F2968C9C9000E4CDC /* OfferApiRequest.swift in Sources */,
 				0E4D07FE29637F42004AA4B2 /* ContentView.swift in Sources */,
+				0E1A6C262968C9C9000E4CDC /* Partner.swift in Sources */,
+				0E1A6C1B2968C9C9000E4CDC /* Certification.swift in Sources */,
+				0E1A6C2C2968C9C9000E4CDC /* AuthenticationView.swift in Sources */,
+				0E1A6C2D2968C9C9000E4CDC /* ProfileView.swift in Sources */,
+				0E1A6C202968C9C9000E4CDC /* Activity.swift in Sources */,
+				0E1A6C192968C9C9000E4CDC /* Period.swift in Sources */,
+				0E1A6C2B2968C9C9000E4CDC /* AuthenticationService.swift in Sources */,
+				0E1A6C252968C9C9000E4CDC /* UserSystemStatusInformation.swift in Sources */,
+				0E1A6C212968C9C9000E4CDC /* Education.swift in Sources */,
+				0E1A6C232968C9C9000E4CDC /* AuthenticationApiResponse.swift in Sources */,
+				0E1A6C282968C9C9000E4CDC /* Client.swift in Sources */,
+				0E1A6C1C2968C9C9000E4CDC /* Knowledge.swift in Sources */,
+				0E1A6C1A2968C9C9000E4CDC /* WageRange.swift in Sources */,
+				0E1A6C1E2968C9C9000E4CDC /* Detail.swift in Sources */,
+				0E1A6C1D2968C9C9000E4CDC /* OfferApiResponse.swift in Sources */,
+				0E1A6C222968C9C9000E4CDC /* Job.swift in Sources */,
+				0E1A6C2A2968C9C9000E4CDC /* AuthenticationServiceable.swift in Sources */,
 				0E4D07FC29637F42004AA4B2 /* MorpheusApp.swift in Sources */,
+				0E1A6C162968C9C9000E4CDC /* Experience.swift in Sources */,
+				0E1A6C132968C9C9000E4CDC /* Constants.swift in Sources */,
+				0E1A6C152968C9C9000E4CDC /* Offer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,5 +15,5 @@ struct Client: Codable {
     var userPersonalInformation: UserMainInformation? = nil
     var userProfessionalInformation: UserProfessionalInformation? = nil
     var userSystemStatusInformation: UserSystemStatusInformation? = nil
-    var timestamp: Int64 = Int64(Date().timeIntervalSince1970)
+//    var timestamp: Int
 }

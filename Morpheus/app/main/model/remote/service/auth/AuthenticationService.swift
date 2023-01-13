@@ -16,21 +16,6 @@ class AuthenticationService: AuthenticationServiceable {
         cancellables = []
     }
     
-    func getUser(completion: @escaping (AuthenticationApiResponse) -> Void) {
-        var request: URLRequest = .init(url: URL(string: "\(base_url)/client")!)
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpMethod = "GET"
-        request.allHTTPHeaderFields = UserDefaults.standard.value(forKey: "allHeaderFields") as? [String : String]
-        
-        URLSession.shared.dataTaskPublisher(for: request)
-            .map(\.data)
-            .decode(type: AuthenticationApiResponse.self, decoder: JSONDecoder())
-            .replaceError(with: AuthenticationApiResponse(success: false))
-            .receive(on: DispatchQueue.main)
-            .sink(receiveValue: completion)
-            .store(in: &cancellables)
-    }
-    
     func validateToken(_ authenticationApiRequest: AuthenticationApiRequest, completion: @escaping (Result<AuthenticationApiResponse, UploadError>) -> Void) -> Void {
         var request: URLRequest = .init(url: URL(string: "\(base_url)/apple_token_verification")!)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
@@ -38,6 +23,7 @@ class AuthenticationService: AuthenticationServiceable {
         request.httpBody = try? JSONEncoder().encode(authenticationApiRequest)
         
         URLSession.shared.dataTaskPublisher(for: request)
+            .retry(1)
             .tryMap { data, response in
                 print("Data: \(data)")
                 let res = response as? HTTPURLResponse
@@ -57,19 +43,5 @@ class AuthenticationService: AuthenticationServiceable {
             .sink(receiveValue: completion)
             .store(in: &cancellables)
         
-    }
-    
-    func deleteUser(completion: @escaping (AuthenticationApiResponse) -> Void) {
-        var request: URLRequest = .init(url: URL(string: "\(base_url)/user")!)
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpMethod = "DELETE"
-        request.allHTTPHeaderFields = UserDefaults.standard.value(forKey: "allHeaderFields") as? [String : String]
-        URLSession.shared.dataTaskPublisher(for: request)
-            .map(\.data)
-            .decode(type: AuthenticationApiResponse.self, decoder: JSONDecoder())
-            .replaceError(with: AuthenticationApiResponse(success: false))
-            .receive(on: DispatchQueue.main)
-            .sink(receiveValue: completion)
-            .store(in: &cancellables)
     }
 }

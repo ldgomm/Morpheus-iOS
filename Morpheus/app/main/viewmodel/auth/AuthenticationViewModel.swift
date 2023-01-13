@@ -11,7 +11,6 @@ class AuthenticationViewModel: ObservableObject {
     @Published private(set) var isAuthenticated: Bool
     @Published private(set) var response: AuthenticationApiResponse
     
-    
     private let service: AuthenticationServiceable
     
     init(service: AuthenticationServiceable) {
@@ -19,35 +18,24 @@ class AuthenticationViewModel: ObservableObject {
         self.isAuthenticated = false
         
         self.response = AuthenticationApiResponse(success: false)
+        
     }
     
     func validateToken(_ authenticationApiRequest: AuthenticationApiRequest) {
         service.validateToken(authenticationApiRequest) { (result: Result<AuthenticationApiResponse, UploadError>) in
             switch result {
             case .success(let response):
-                print("Response: \(response)")
+                print("Authentication response: \(response)")
                 self.isAuthenticated = response.success
                 if response.success {
-                    UserDefaults.standard.set("User", forKey: "idUser")
+                    UserDefaults.standard.set(response.client?.idUser ?? "User-\(Int.random(in: 1000...9999))", forKey: "idUser")
                 }
-                print("Is authenticated (response): \(self.isAuthenticated)")
+                print("Authentication, is auth: \(self.isAuthenticated)")
             case .failure(let error):
-                print("Error: \(error.localizedDescription)")
+                print("Authentication error: \(error.localizedDescription)")
                 self.isAuthenticated = false
                 fatalError()
             }
-        }
-    }
-    
-    func getUser() {
-        service.getUser { response in
-            self.response = response
-        }
-    }
-    
-    func deleteUser() {
-        service.deleteUser { response in
-            print("AuthenticationViewModel: user deleted")
         }
     }
 }

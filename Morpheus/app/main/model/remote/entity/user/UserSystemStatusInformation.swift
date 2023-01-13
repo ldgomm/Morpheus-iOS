@@ -8,8 +8,8 @@
 import Foundation
 
 struct UserSystemStatusInformation: Codable {
-    let isValidated: Bool = false
-    let isActive: Bool = true
-    let isSuspended: Bool = false
-    let isBlocked: Bool = false
+    var isValidated: Bool = false
+    var isActive: Bool = true
+    var isSuspended: Bool = false
+    var isBlocked: Bool = false
 }

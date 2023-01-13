@@ -33,11 +33,15 @@
 		0E1A6C2A2968C9C9000E4CDC /* AuthenticationServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C0B2968C9C9000E4CDC /* AuthenticationServiceable.swift */; };
 		0E1A6C2B2968C9C9000E4CDC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C0C2968C9C9000E4CDC /* AuthenticationService.swift */; };
 		0E1A6C2C2968C9C9000E4CDC /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C0F2968C9C9000E4CDC /* AuthenticationView.swift */; };
-		0E1A6C2D2968C9C9000E4CDC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C112968C9C9000E4CDC /* ProfileView.swift */; };
+		0E1A6C2D2968C9C9000E4CDC /* ClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A6C112968C9C9000E4CDC /* ClientView.swift */; };
 		0E4D07FC29637F42004AA4B2 /* MorpheusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D07FB29637F42004AA4B2 /* MorpheusApp.swift */; };
 		0E4D07FE29637F42004AA4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D07FD29637F42004AA4B2 /* ContentView.swift */; };
 		0E4D080029637F43004AA4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4D07FF29637F43004AA4B2 /* Assets.xcassets */; };
 		0E4D080329637F43004AA4B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4D080229637F43004AA4B2 /* Preview Assets.xcassets */; };
+		0E841AA72970B41000EFD2DF /* ClientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E841AA62970B41000EFD2DF /* ClientViewModel.swift */; };
+		0E841AAB2970B48900EFD2DF /* ClientServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E841AAA2970B48900EFD2DF /* ClientServiceable.swift */; };
+		0E841AAD2970B4CC00EFD2DF /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E841AAC2970B4CC00EFD2DF /* ClientService.swift */; };
+		0E841AAF2970B55000EFD2DF /* ClientApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E841AAE2970B55000EFD2DF /* ClientApiResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,12 +71,17 @@
 		0E1A6C0B2968C9C9000E4CDC /* AuthenticationServiceable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServiceable.swift; sourceTree = "<group>"; };
 		0E1A6C0C2968C9C9000E4CDC /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		0E1A6C0F2968C9C9000E4CDC /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
-		0E1A6C112968C9C9000E4CDC /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0E1A6C112968C9C9000E4CDC /* ClientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientView.swift; sourceTree = "<group>"; };
 		0E4D07F829637F42004AA4B2 /* Morpheus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morpheus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4D07FB29637F42004AA4B2 /* MorpheusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorpheusApp.swift; sourceTree = "<group>"; };
 		0E4D07FD29637F42004AA4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E4D07FF29637F43004AA4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E4D080229637F43004AA4B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E841AA42970B01000EFD2DF /* Morpheus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Morpheus.entitlements; sourceTree = "<group>"; };
+		0E841AA62970B41000EFD2DF /* ClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewModel.swift; sourceTree = "<group>"; };
+		0E841AAA2970B48900EFD2DF /* ClientServiceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientServiceable.swift; sourceTree = "<group>"; };
+		0E841AAC2970B4CC00EFD2DF /* ClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		0E841AAE2970B55000EFD2DF /* ClientApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientApiResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +123,9 @@
 		0E1A6BEB2968C9C9000E4CDC /* main */ = {
 			isa = PBXGroup;
 			children = (
-				0E1A6BEC2968C9C9000E4CDC /* viewmodel */,
 				0E1A6BEF2968C9C9000E4CDC /* model */,
 				0E1A6C0D2968C9C9000E4CDC /* view */,
+				0E1A6BEC2968C9C9000E4CDC /* viewmodel */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				0E1A6BED2968C9C9000E4CDC /* auth */,
+				0E841AA52970B3F200EFD2DF /* client */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -157,8 +167,8 @@
 		0E1A6BF12968C9C9000E4CDC /* entity */ = {
 			isa = PBXGroup;
 			children = (
-				0E1A6BF22968C9C9000E4CDC /* offer */,
 				0E1A6C012968C9C9000E4CDC /* auth */,
+				0E1A6BF22968C9C9000E4CDC /* offer */,
 				0E1A6C042968C9C9000E4CDC /* user */,
 			);
 			path = entity;
@@ -202,6 +212,7 @@
 				0E1A6C072968C9C9000E4CDC /* UserMainInformation.swift */,
 				0E1A6C082968C9C9000E4CDC /* Client.swift */,
 				0E1A6C092968C9C9000E4CDC /* UserProfessionalInformation.swift */,
+				0E841AAE2970B55000EFD2DF /* ClientApiResponse.swift */,
 			);
 			path = user;
 			sourceTree = "<group>";
@@ -209,8 +220,8 @@
 		0E1A6C0A2968C9C9000E4CDC /* service */ = {
 			isa = PBXGroup;
 			children = (
-				0E1A6C0B2968C9C9000E4CDC /* AuthenticationServiceable.swift */,
-				0E1A6C0C2968C9C9000E4CDC /* AuthenticationService.swift */,
+				0E841AA82970B43600EFD2DF /* auth */,
+				0E841AA92970B47600EFD2DF /* client */,
 			);
 			path = service;
 			sourceTree = "<group>";
@@ -218,9 +229,9 @@
 		0E1A6C0D2968C9C9000E4CDC /* view */ = {
 			isa = PBXGroup;
 			children = (
+				0E4D07FD29637F42004AA4B2 /* ContentView.swift */,
 				0E1A6C0E2968C9C9000E4CDC /* auth */,
-				0E1A6C102968C9C9000E4CDC /* profile */,
-				0E1A6C122968C9C9000E4CDC /* main */,
+				0E1A6C102968C9C9000E4CDC /* client */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -233,19 +244,12 @@
 			path = auth;
 			sourceTree = "<group>";
 		};
-		0E1A6C102968C9C9000E4CDC /* profile */ = {
+		0E1A6C102968C9C9000E4CDC /* client */ = {
 			isa = PBXGroup;
 			children = (
-				0E1A6C112968C9C9000E4CDC /* ProfileView.swift */,
+				0E1A6C112968C9C9000E4CDC /* ClientView.swift */,
 			);
-			path = profile;
-			sourceTree = "<group>";
-		};
-		0E1A6C122968C9C9000E4CDC /* main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = main;
+			path = client;
 			sourceTree = "<group>";
 		};
 		0E4D07EF29637F41004AA4B2 = {
@@ -267,8 +271,8 @@
 		0E4D07FA29637F42004AA4B2 /* Morpheus */ = {
 			isa = PBXGroup;
 			children = (
+				0E841AA42970B01000EFD2DF /* Morpheus.entitlements */,
 				0E4D07FB29637F42004AA4B2 /* MorpheusApp.swift */,
-				0E4D07FD29637F42004AA4B2 /* ContentView.swift */,
 				0E1A6BE72968C9B3000E4CDC /* app */,
 				0E4D07FF29637F43004AA4B2 /* Assets.xcassets */,
 				0E4D080129637F43004AA4B2 /* Preview Content */,
@@ -282,6 +286,32 @@
 				0E4D080229637F43004AA4B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E841AA52970B3F200EFD2DF /* client */ = {
+			isa = PBXGroup;
+			children = (
+				0E841AA62970B41000EFD2DF /* ClientViewModel.swift */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		0E841AA82970B43600EFD2DF /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A6C0B2968C9C9000E4CDC /* AuthenticationServiceable.swift */,
+				0E1A6C0C2968C9C9000E4CDC /* AuthenticationService.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		0E841AA92970B47600EFD2DF /* client */ = {
+			isa = PBXGroup;
+			children = (
+				0E841AAA2970B48900EFD2DF /* ClientServiceable.swift */,
+				0E841AAC2970B4CC00EFD2DF /* ClientService.swift */,
+			);
+			path = client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,11 +391,14 @@
 				0E1A6C272968C9C9000E4CDC /* UserMainInformation.swift in Sources */,
 				0E1A6C142968C9C9000E4CDC /* AuthenticationViewModel.swift in Sources */,
 				0E1A6C1F2968C9C9000E4CDC /* OfferApiRequest.swift in Sources */,
+				0E841AA72970B41000EFD2DF /* ClientViewModel.swift in Sources */,
 				0E4D07FE29637F42004AA4B2 /* ContentView.swift in Sources */,
+				0E841AAF2970B55000EFD2DF /* ClientApiResponse.swift in Sources */,
 				0E1A6C262968C9C9000E4CDC /* Partner.swift in Sources */,
+				0E841AAB2970B48900EFD2DF /* ClientServiceable.swift in Sources */,
 				0E1A6C1B2968C9C9000E4CDC /* Certification.swift in Sources */,
 				0E1A6C2C2968C9C9000E4CDC /* AuthenticationView.swift in Sources */,
-				0E1A6C2D2968C9C9000E4CDC /* ProfileView.swift in Sources */,
+				0E1A6C2D2968C9C9000E4CDC /* ClientView.swift in Sources */,
 				0E1A6C202968C9C9000E4CDC /* Activity.swift in Sources */,
 				0E1A6C192968C9C9000E4CDC /* Period.swift in Sources */,
 				0E1A6C2B2968C9C9000E4CDC /* AuthenticationService.swift in Sources */,
@@ -382,6 +415,7 @@
 				0E4D07FC29637F42004AA4B2 /* MorpheusApp.swift in Sources */,
 				0E1A6C162968C9C9000E4CDC /* Experience.swift in Sources */,
 				0E1A6C132968C9C9000E4CDC /* Constants.swift in Sources */,
+				0E841AAD2970B4CC00EFD2DF /* ClientService.swift in Sources */,
 				0E1A6C152968C9C9000E4CDC /* Offer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Morpheus/Morpheus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Morpheus/Preview Content\"";
@@ -537,6 +572,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Morpheus/Morpheus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Morpheus/Preview Content\"";
